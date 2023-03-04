@@ -21,15 +21,15 @@ public class Main {
          * I create a loop to be sure that the new n won't have more than one digit
          * I store the sum in variable s then I move the value in variable n
          */
-        while(n > 9){
+        while(n > 9) {
             int s = 0;
-            while(n>0){
-                s += n%10;
+            while (n > 0) {
+                s += n % 10;
                 n /= 10;
             }
             n = s;
         }
-
+        int MAX_VAL;
         System.out.println("Willy-nilly, this semester I will learn " + languages[n]);
     }
 }
