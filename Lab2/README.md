@@ -19,12 +19,12 @@ Use the IDE features for code generation, for example (in NetBeans) press Alt+In
 
 ---
 
-- [ ] Create a class that describes an instance of the problem.
-- [ ] Override the Object.equals method for the Location and Road classes. The problem should not allow adding the same location or road twice.
-- [ ] Instead of using an enum, create dedicated classes either for locations: cities, air ports, gas stations etc. or roads: highway, express, country, etc. Each concrete location class may have additional specific propertes (population, number of terminals, gas price, etc.)
-- [ ] Implement a method that determines if a problem's instance is valid.
-- [ ] Implement an algorithm for determining if it is possible to go from one location to another using the given roads.
-- [ ] Write doc comments in your source code and generate the class documentation using javadoc.
+- [x] Create a class that describes an instance of the problem.
+- [x] Override the Object.equals method for the Location and Road classes. The problem should not allow adding the same location or road twice.
+- [x] Instead of using an enum, create dedicated classes either for locations: cities, air ports, gas stations etc. or roads: highway, express, country, etc. Each concrete location class may have additional specific propertes (population, number of terminals, gas price, etc.)
+- [x] Implement a method that determines if a problem's instance is valid.
+- [x] Implement an algorithm for determining if it is possible to go from one location to another using the given roads.
+- [x] Write doc comments in your source code and generate the class documentation using javadoc.
 
 ---
 
@@ -32,6 +32,6 @@ Use the IDE features for code generation, for example (in NetBeans) press Alt+In
 
 ---
 
-- [ ] Create a class to describe the solution.
+- [x] Create a class to describe the solution.
 - [ ] Implement an algorithm to find the best route from a location to another, either as the shortest route, or the fastest route.
 - [ ] Generate large random instances of the problem and analyze the performance of your algorithm (running times, memory consumption).
